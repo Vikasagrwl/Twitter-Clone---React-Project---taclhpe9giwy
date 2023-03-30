@@ -1,0 +1,43 @@
+.tweet {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #ffffff4f;
+
+  .user {
+    display: flex;
+    min-height: 100px;
+    padding-top: 10px;
+    img {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      background: transparent;
+      margin-left: 1rem;
+    }
+
+    .content {
+      margin-left: 1em;
+      display: flex;
+      flex-direction: column;
+
+      .user_name{
+        font-size:1.3rem ;
+        font-weight: 500;
+      }
+    }
+  }
+  .likes {
+    display: flex;
+    width: 60%;
+    fill: #fff;
+    justify-content: space-around;
+    padding-bottom: 5px;
+
+    svg {
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+  }
+}

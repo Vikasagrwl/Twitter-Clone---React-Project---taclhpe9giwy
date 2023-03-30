@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    background: #000;
+}
+.common{
+    font-family: 'segoe UI', 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: 1.1fr 2.1fr 1.4fr;
+    color: #fff;
+}
+
+.right-pane{
+}
